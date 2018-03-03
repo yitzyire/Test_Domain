@@ -2,7 +2,6 @@
 Import-module ServerManager
 Add-WindowsFeature AD-Domain-Services, DNS, GPMC, RSAT, RSAT-Role-Tools, RSAT-AD-Tools, RSAT-AD-PowerShell, RSAT-ADDS, RSAT-AD-AdminCenter, RSAT-ADDS-Tools, RSAT-ADLDS, RSAT-RDS-Tools, UpdateServices-RSAT, UpdateServices-API, UpdateServices-UI, RSAT-ADCS, RSAT-ADCS-Mgmt, RSAT-Online-Responder, RSAT-ADRMS, RSAT-DHCP, RSAT-DNS-Server, RSAT-File-Services, RSAT-NPAS, RSAT-Print-Services, RSAT-RemoteAccess, RSAT-RemoteAccess-Mgmt, RSAT-VA-Tools, WDS-AdminPack
 
-
 Import-Module ADDSDeployment
 Install-ADDSForest `
 -CreateDnsDelegation:$false `
